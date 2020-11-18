@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Android 开发环境</title>
+    <url>/2020/11/18/android-env-config.html</url>
+    <content><![CDATA[<h4 id="记录安装开发环境的配置"><a href="#记录安装开发环境的配置" class="headerlink" title="记录安装开发环境的配置"></a>记录安装开发环境的配置</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">D:\Android\Android Studio</span><br><span class="line">D:\Android\SDK</span><br><span class="line">D:\Android\Home</span><br><span class="line">D:\Android\Gradle</span><br></pre></td></tr></table></figure>
+
+<h4 id="Java环境配置"><a href="#Java环境配置" class="headerlink" title="Java环境配置"></a>Java环境配置</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">JAVA_HOME&#x3D;D:\Android\Android Studio\jre</span><br><span class="line">JRE_HOME&#x3D;D:\Android\Android Studio\jre\jre</span><br><span class="line">CLASSPATH&#x3D;.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar</span><br></pre></td></tr></table></figure>
+
+<h4 id="Android环境配置"><a href="#Android环境配置" class="headerlink" title="Android环境配置"></a>Android环境配置</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Android_SDK_HOME&#x3D;D:\Android\Home</span><br><span class="line">ANDROID_HOME&#x3D;D:\Android\SDK</span><br><span class="line">GRADLE_USER_HOME&#x3D;D:\Android\Gradle</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>PATH</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%JAVA_HOME%\bin</span><br><span class="line">%JRE_HOME%\bin</span><br><span class="line">%ANDROID_HOME%\platform-tools</span><br></pre></td></tr></table></figure>
+
+<h4 id="Gradle-下载代理"><a href="#Gradle-下载代理" class="headerlink" title="Gradle 下载代理"></a>Gradle 下载代理</h4><blockquote>
+<p>D:\Android\Gradle\gradle.properties</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">systemProp.http.proxyHost&#x3D;127.0.0.1</span><br><span class="line">systemProp.http.proxyPort&#x3D;1080</span><br><span class="line">systemProp.https.proxyHost&#x3D;127.0.0.1</span><br><span class="line">systemProp.https.proxyPort&#x3D;1080</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>默认</category>
+      </categories>
+      <tags>
+        <tag>默认</tag>
+      </tags>
+  </entry>
+</search>
